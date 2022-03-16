@@ -1,0 +1,32 @@
+
+<html>
+    <body>
+        <script>
+var password = 931520;
+var input;
+var entry_count = 0;
+var entry_limit = 1;
+var out_of_limit = false;
+
+while(password!=input && !out_of_limit){
+    entry_count++;
+    if(entry_count<=entry_limit){
+         input=prompt("請輸入密碼");
+}
+    else {
+        out_of_limit=true;
+    }
+}
+
+if(out_of_limit){
+    alert("密碼錯誤");
+}
+else{
+    alert("歡迎來到2022");
+    alert("https://app.gather.town/invite?token=3LVJhZtCYJ6m1raQCVi7eGV5NpGIuBPG");
+    
+}
+</script>
+</body>
+
+</html>
