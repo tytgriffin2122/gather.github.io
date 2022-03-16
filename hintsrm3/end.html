@@ -1,0 +1,32 @@
+
+<html>
+    <body>
+        <script>
+var password = 8792;
+var input;
+var entry_count = 0;
+var entry_limit = 1;
+var out_of_limit = false;
+
+while(password!=input && !out_of_limit){
+    entry_count++;
+    if(entry_count<=entry_limit){
+         input=prompt("請輸入密碼：");
+}
+    else {
+        out_of_limit=true;
+    }
+}
+
+if(out_of_limit){
+    alert("密碼錯誤");
+}
+else{
+    alert("恭喜你完成了任務！！ヾ(≧▽≦*)o");
+    
+    
+}
+</script>
+</body>
+
+</html>
